@@ -7,9 +7,9 @@ public class LocalizationServiceImpl implements LocalizationService {
     public String locale(Country country) {
         switch (country) {
             case RUSSIA:
-                return "Этот IP из RuZone";
+                return "Этот Ip из RuZone";
             default:
-                return "Этот IP из EnZone";
+                return "Этот Ip из EnZone";
         }
     }
 }
