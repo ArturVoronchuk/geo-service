@@ -9,7 +9,7 @@ public class LocalizationServiceImpl implements LocalizationService {
             case RUSSIA:
                 return "Этот Ip из RuZone";
             default:
-                return "Этот Ip из EnZone";
+                return "Этот Ip из UsZone";
         }
     }
 }
